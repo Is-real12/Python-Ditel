@@ -1,0 +1,16 @@
+number = input("Enter a five-digit integer: ")
+
+
+number = int(number)
+
+
+digit_5 = number % 10
+number //= 10
+digit_4 = number % 10
+number //= 10
+digit_3 = number % 10
+number //= 10
+digit_2 = number % 10
+digit_1 = number // 10
+
+print(digit_1, digit_2, digit_3, digit_4, digit_5)
