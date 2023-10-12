@@ -1,4 +1,4 @@
-import changingmyprint
+from FilesFolder import changingmyprint
 
 
 def no_check(n):
