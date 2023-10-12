@@ -1,5 +1,6 @@
 import unittest
-import HappyBirthdayDIV
+from FilesFolder import HappyBirthdayDIV
+
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
