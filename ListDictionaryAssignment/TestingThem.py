@@ -27,5 +27,3 @@ class TestMyFunctions(unittest.TestCase):
         expected_output = [1, 2, 5]
         self.assertEqual(elements_with_frequency_greater_than_k(sample_input, k), expected_output)
 
-# if _name_ == '_main_':
-#     unittest.main()
