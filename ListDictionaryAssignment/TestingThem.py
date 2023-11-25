@@ -1,7 +1,8 @@
 import unittest
 
+from Assignment import list_to_dictionary, two_lists_to_dictionary, find_difference, \
+    remove_WhiteSpace, elements_with_frequency_greater_than_k, split_In_Half
 
-from Assignment import list_to_dictionary, two_lists_to_dictionary, find_difference, elements_with_frequency_greater_than_k
 
 class TestMyFunctions(unittest.TestCase):
 
@@ -27,3 +28,11 @@ class TestMyFunctions(unittest.TestCase):
         expected_output = [1, 2, 5]
         self.assertEqual(elements_with_frequency_greater_than_k(sample_input, k), expected_output)
 
+    def test_removing_white_space(self):
+        some_List = ['', 'ABC', 'xyz', '', 'abc', 'XYZ']
+        self.assertEqual(remove_WhiteSpace(some_List), ['ABC', 'xyz', 'abc', 'XYZ'])
+
+    def test_split_to_half(self):
+        lister = [10, 75, 20, 30, 15, 5, 40, 25, 40, 35]
+        answer = [[5, 40, 25, 40, 35], [10, 75, 20, 30, 15]]
+        self.assertEqual(split_In_Half(lister), answer)

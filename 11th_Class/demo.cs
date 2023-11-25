@@ -1,0 +1,1 @@
+ope is a short girlUye is a man beaterTobi is a sweet husband to opeope is a short girlUye is a man beaterTobi is a sweet husband to opeope is a short girlUye is a man beaterTobi is a sweet husband to opeConsole.writeLine("Life Is Pain")
